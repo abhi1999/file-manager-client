@@ -1,14 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { FileManager, FileNavigator } from '@opuscapita/react-filemanager';
 import connectorNodeV1 from '@opuscapita/react-filemanager-connector-node-v1';
 // https://awesomeopensource.com/project/OpusCapita/filemanager
+const {REACT_APP_API_HOST} = process.env;
+
+
 const apiOptions = {
   ...connectorNodeV1.apiOptions,
-  apiRoot: process.env.APIHOST ||'http://localhost:3020',
+  apiRoot: REACT_APP_API_HOST
 }
 
 const fileManager = (
