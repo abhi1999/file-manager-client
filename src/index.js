@@ -8,8 +8,8 @@ import connectorNodeV1 from '@opuscapita/react-filemanager-connector-node-v1';
 // https://awesomeopensource.com/project/OpusCapita/filemanager
 const apiOptions = {
   ...connectorNodeV1.apiOptions,
-  apiRoot:'http://localhost:3020',
-  apiRoot1: `http://opuscapita-filemanager-demo-master.azurewebsites.net/` // Or you local Server Node V1 installation.
+  apiRoot: process.env.APIHOST ||'http://localhost:3020',
+  apiRoot2: `https://file-manager-node-server.herokuapp.com`
 }
 
 const fileManager = (
