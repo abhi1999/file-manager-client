@@ -9,7 +9,6 @@ import connectorNodeV1 from '@opuscapita/react-filemanager-connector-node-v1';
 const apiOptions = {
   ...connectorNodeV1.apiOptions,
   apiRoot: process.env.APIHOST ||'http://localhost:3020',
-  apiRoot2: `https://file-manager-node-server.herokuapp.com`
 }
 
 const fileManager = (
