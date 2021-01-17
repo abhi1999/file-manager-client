@@ -5,13 +5,17 @@
   "dependencies": {
     "@opuscapita/react-filemanager": "^1.1.4",
     "@opuscapita/react-filemanager-connector-node-v1": "^1.1.4",
+    "@syncfusion/ej2-react-filemanager": "^18.4.30",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.0",
+    "bootstrap": "^4.5.3",
+    "classnames": "^2.2.6",
     "env-cmd": "^10.1.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
+    "reactstrap": "^8.8.1",
     "serve": "^11.3.2",
     "web-vitals": "^0.2.4"
   },

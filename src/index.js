@@ -1,20 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { FileManager, FileNavigator } from '@opuscapita/react-filemanager';
-import connectorNodeV1 from '@opuscapita/react-filemanager-connector-node-v1';
-// https://awesomeopensource.com/project/OpusCapita/filemanager
-const {REACT_APP_API_HOST} = process.env;
 
-
-const apiOptions = {
-  ...connectorNodeV1.apiOptions,
-  apiRoot: REACT_APP_API_HOST
-}
-
-const fileManager = (
+/*const fileManager = (
   <div style={{ height: '480px' }}>
      <FileManager>
        <FileNavigator
@@ -33,14 +23,13 @@ const fileManager = (
   fileManager,
   document.getElementById('root')
 );
- /*
+*/
+ 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <App />,
   document.getElementById('root')
 );
-*/
+
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
