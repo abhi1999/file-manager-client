@@ -55,7 +55,7 @@ class App extends React.Component {
             <TabPane tabId="1">
               <Card>
                 <CardTitle>
-                    Open source - 
+                    Open source - &nbsp;
                     <a target="_blank" rel="noreferrer" href="https://demo.core.dev.opuscapita.com/filemanager/master/?currentComponentName=FileManager&maxContainerWidth=100%25&showSidebar=true"> 
                       OpusCapita
                     </a>
@@ -76,7 +76,7 @@ class App extends React.Component {
             </TabPane>
             <TabPane tabId="2">
               <Card>
-                <CardTitle><a target="_blank" rel="noreferrer" href="https://ej2.syncfusion.com/react/documentation/file-manager/getting-started/">Syncfusion</a></CardTitle>
+                <CardTitle> &nbsp;<a target="_blank" rel="noreferrer" href="https://ej2.syncfusion.com/react/documentation/file-manager/getting-started/">Syncfusion</a></CardTitle>
                 <CardBody>
                   <Control2/>
                 </CardBody>

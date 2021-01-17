@@ -30,7 +30,7 @@ class Control2 extends React.Component {
         const {hostUrl}= this.state
         return(
         <div className="control-section">
-            <FileManagerComponent  ref={s => (this.fileObj = s)} id="file" allowDragAndDrop={true}  view="Details" ajaxSettings={{
+            <FileManagerComponent  ref={s => (this.fileObj = s)} id="file" allowDragAndDrop={true}  view="LargeIcons" ajaxSettings={{
                 downloadUrl: hostUrl + 'Download',
                 getImageUrl: hostUrl + "GetImage",
                 uploadUrl: hostUrl + 'Upload',
