@@ -11,14 +11,13 @@ class FileDetails extends React.Component {
       }
     }
     render() {
-        if(this.props.FileDetails && this.props.FileDetails.length>0){
+        if(this.props.fileDetails && this.props.fileDetails.length>0){
             return (<div>Please select one file to preview, or click on "Download" button to download the selected files</div>)
         }
         const formatedXML =
 `<a>
-    <b>dd</b>
+    <b>some hard coded XML</b>
 </a>`;
-        debugger;
         return(
         <div className="file-details">
             <AceEditor
@@ -45,7 +44,7 @@ class FileDetails extends React.Component {
                                 showLineNumbers: true,
                                 tabSize: 2,
                             }}
-                            readOnly={false}
+                            readOnly={true}
                             />
         </div>
         );
