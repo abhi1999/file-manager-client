@@ -35,3 +35,7 @@
     transform: rotate(360deg);
   }
 }
+
+
+.file-details {height:100%}
+.file-details-modal .modal-body {height:75vh;}
